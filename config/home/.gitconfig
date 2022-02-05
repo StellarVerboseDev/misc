@@ -1,0 +1,14 @@
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+[core]
+	editor = code --wait
+	pager = diff-so-fancy
+	autocrlf = input
+[color]
+	ui = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	status = auto
